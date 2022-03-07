@@ -1,0 +1,454 @@
+iwmap 4
+"script_startingnumber" 0
+"000_Global" flags expanded  active
+"000_Global/No Comp" flags hidden ignore 
+"The Map" flags expanded 
+// entity 0
+{
+guid "{0787340d-fa1e-4270-8d5d-f5336f5c8258}"
+"classname" "worldspawn"
+"lightingquality" "1024"
+"samplescale" "1"
+"skyboxmodel" "skybox_default_day"
+"ssi" "default_day"
+"wsi" "default_day"
+"fsi" "default"
+"gravity" "800"
+"lodbias" "default"
+"lutmaterial" "luts_t7_default"
+"numOmniShadowSlices" "24"
+"numSpotShadowSlices" "64"
+"sky_intensity_factor0" "1"
+"sky_intensity_factor1" "1"
+"state_alias_1" "State 1"
+"state_alias_2" "State 2"
+"state_alias_3" "State 3"
+"state_alias_4" "State 4"
+// brush 0
+{
+ guid "{ae4a7441-6ac5-444c-a2d8-764e85c7ab47}"
+ ( 1008 56 0 ) ( 960 56 0 ) ( 960 16 0 ) script_wall 128 128 696 -80 0 0 lightmap_gray 16384 16384 696 -80 0 0
+ ( 968 16 256 ) ( 968 56 256 ) ( 1016 56 256 ) script_wall 128 128 696 -80 0 0 lightmap_gray 16384 16384 696 -80 0 0
+ ( 960 16 88 ) ( 1008 16 88 ) ( 1008 16 0 ) script_wall 128 128 696 -64 0 0 lightmap_gray 16384 16384 696 -64 0 0
+ ( 980 16 88 ) ( 980 56 88 ) ( 980 56 0 ) script_wall 128 128 80 -64 0 0 lightmap_gray 16384 16384 80 -64 0 0
+ ( 1008 64 88 ) ( 960 64 88 ) ( 960 64 0 ) script_wall 128 128 696 -64 0 0 lightmap_gray 16384 16384 696 -64 0 0
+ ( 960 56 88 ) ( 960 16 88 ) ( 960 16 0 ) script_wall 128 128 80 -64 0 0 lightmap_gray 16384 16384 80 -64 0 0
+}
+// brush 1
+{
+ guid "{fc6cbfe5-fe36-43d4-a83f-629e77ebdfad}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 1024 ) ( 1024 -2080 1024 ) ( 1024 -2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2080 1024 ) ( 0 2080 1024 ) ( 0 2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2080 2048 1024 ) ( -2080 -2048 1024 ) ( -2080 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2048 -2048 960 ) ( -2048 2048 960 ) ( -2048 -2048 -64 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ guid "{7536b190-6ccd-4b3b-ac6b-4cf8861715c6}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -2048 1056 ) ( 2080 2048 1056 ) ( 2080 2048 32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2080 1024 ) ( 0 2080 1024 ) ( 0 2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2080 2048 1024 ) ( -2080 -2048 1024 ) ( -2080 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 2048 1024 ) ( 1024 2048 1024 ) ( 0 2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ guid "{14f3af85-64de-4307-abfb-40de54f9596d}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 1024 ) ( 1024 -2080 1024 ) ( 1024 -2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -2048 1056 ) ( 2080 2048 1056 ) ( 2080 2048 32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2080 1024 ) ( 0 2080 1024 ) ( 0 2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 2048 992 ) ( 2048 -2048 992 ) ( 2048 2048 -32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ guid "{fe2acca5-4a36-41c7-873b-55713dbe17c7}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 1024 ) ( 1024 -2080 1024 ) ( 1024 -2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -2048 1056 ) ( 2080 2048 1056 ) ( 2080 2048 32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2080 2048 1024 ) ( -2080 -2048 1024 ) ( -2080 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 -2048 1024 ) ( 0 -2048 1024 ) ( 1024 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ guid "{333a769e-5559-46a7-a213-076b6eee23b6}"
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 1024 ) ( 1024 -2080 1024 ) ( 1024 -2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -2048 1056 ) ( 2080 2048 1056 ) ( 2080 2048 32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2080 1024 ) ( 0 2080 1024 ) ( 0 2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2080 2048 1024 ) ( -2080 -2048 1024 ) ( -2080 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 2048 1024 ) ( 32 -2048 1024 ) ( 1056 2048 1024 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ guid "{7cb60b52-ebd0-4b8d-ad4a-6fb73bcafbc3}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 960 ) ( 1024 -2080 960 ) ( 1024 -2080 -64 ) sky 16 16 0 64 0 0 lightmap_gray 16384 16384 0 64 0 0
+ ( 2080 -2048 992 ) ( 2080 2048 992 ) ( 2080 2048 -32 ) sky 16 16 0 64 0 0 lightmap_gray 16384 16384 0 64 0 0
+ ( 1024 2080 960 ) ( 0 2080 960 ) ( 0 2080 -64 ) sky 16 16 0 64 0 0 lightmap_gray 16384 16384 0 64 0 0
+ ( -2080 2048 960 ) ( -2080 -2048 960 ) ( -2080 -2048 -64 ) sky 16 16 0 64 0 0 lightmap_gray 16384 16384 0 64 0 0
+ ( 0 2048 -64 ) ( 1024 2048 -64 ) ( 0 -2048 -64 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ guid "{edff5726-2dab-4f19-8e45-2d569a307c40}"
+ ( -1536 -1792 -8 ) ( 768 -1792 -8 ) ( 768 768 -8 ) caulk 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1376 -576 -256 ) ( -1376 -576 0 ) ( 928 -576 0 ) caulk 16 16 160 0 0 0 lightmap_gray 16384 16384 160 -64 0 0
+ ( 384 888 -256 ) ( 384 -1672 -256 ) ( 384 -1672 0 ) caulk 16 16 120 0 0 0 lightmap_gray 16384 16384 120 -64 0 0
+ ( 656 64 -256 ) ( 656 64 0 ) ( -1648 64 0 ) caulk 16 16 -112 0 0 0 lightmap_gray 16384 16384 -112 -64 0 0
+ ( -320 784 0 ) ( -320 -1776 0 ) ( -320 -1776 -256 ) caulk 16 16 16 0 0 0 lightmap_gray 16384 16384 16 -64 0 0
+ ( -1536 768 0 ) ( 768 768 0 ) ( 768 -1792 0 ) caulk 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+guid "{34381e24-45e7-435e-be10-fb7ed2c4409d}"
+"classname" "info_player_start"
+"angles" "0 90 0"
+"origin" "0 -448 40"
+}
+// entity 2
+{
+guid "{f92d521b-9bda-44d8-a5db-09be8a467f1d}"
+"classname" "info_volume"
+"script_noteworthy" "player_volume"
+"target" "start_zone_spawners"
+"targetname" "start_zone"
+// brush 0
+{
+ guid "{2af047e7-f327-4385-9c93-afabc512d0e9}"
+ ( 1536 512 0 ) ( 1536 -1536 0 ) ( 1536 -1536 320 ) volume 64 64 1800 -136 0 0 lightmap_gray 16384 16384 -2044.5 -291.5 0 0
+ ( 768 1408 0 ) ( -1472 1408 0 ) ( -1472 -640 0 ) volume 64 64 -248 -1800 0 0 lightmap_gray 16384 16384 -248 -1800 0 0
+ ( 768 -640 320 ) ( -1472 -640 320 ) ( -1472 1408 320 ) volume 64 64 -248 -1800 0 0 lightmap_gray 16384 16384 -248 -1800 0 0
+ ( 1536 -1536 320 ) ( 1536 -1536 0 ) ( -704 -1536 0 ) volume 64 64 -248 -136 0 0 lightmap_gray 16384 16384 -248 -136 0 0
+ ( -1536 1536 320 ) ( -1536 -512 320 ) ( -1536 -512 0 ) volume 64 64 1800 -136 0 0 lightmap_gray 16384 16384 1800 -136 0 0
+ ( -1536 1536 320 ) ( -1536 1536 0 ) ( 704 1536 0 ) volume 64 64 -248 -136 0 0 lightmap_gray 16384 16384 -248 -136 0 0
+}
+}
+// entity 3
+{
+guid "{45ea3e3f-caa9-4fed-94be-699ff0e6b650}"
+"classname" "script_struct"
+"angles" "0 180 0"
+"origin" "576 192 0"
+"script_noteworthy" "riser_location"
+"script_string" "find_flesh"
+"targetname" "start_zone_spawners"
+"_color" "1 0 0"
+}
+// entity 4
+{
+guid "{49fb2cd8-44ab-48d9-ba6b-7560c29da6a3}"
+"classname" "misc_prefab"
+"angles" "0 2.50448e-006 0"
+"model" "_prefabs/zm/zm_core/barricade_reciever_wood.map"
+"origin" "0 432 0"
+"script_string" "receiver_set_entry_a"
+}
+// entity 5
+{
+guid "{021b1627-12d4-4831-9694-89f44dacd762}"
+"classname" "script_struct"
+"angles" "0 360 0"
+"origin" "-576 192 0"
+"script_noteworthy" "riser_location"
+"script_string" "find_flesh"
+"targetname" "start_zone_spawners"
+"_color" "1 0 0"
+}
+// entity 6
+{
+guid "{0da6d4f5-b18d-4e3c-b8dc-4bb05991e412}"
+"classname" "script_struct"
+"angles" "0 270 0"
+"origin" "0 576 0"
+"script_noteworthy" "riser_location"
+"script_string" "receiver_set_entry_a"
+"targetname" "start_zone_spawners"
+"_color" "1 0 0"
+}
+// entity 7
+{
+guid "{edaa589f-0e45-42f4-855f-8b798e31bec0}"
+"classname" "misc_prefab"
+"angles" "0 270 0"
+"model" "_prefabs/zm/zm_core/power_switch.map"
+"origin" "953.13 39.87 1"
+}
+// entity 8
+{
+guid "{62eea771-fcb6-4255-8624-8493f114b49e}"
+layer "000_Global/No Comp"
+"classname" "actor_zm_nuked_basic_01"
+"count" "9999"
+"export" "1"
+"model" "c_t6_default_character_fb"
+"origin" "0 320 0"
+"script_disable_bleeder" "1"
+"script_forcespawn" "1"
+"script_noteworthy" "zombie_spawner"
+"spawnflags" "3"
+}
+// entity 9
+{
+guid "{41f2366f-7575-4c7a-b17a-51975b2c57a0}"
+"classname" "script_struct"
+"angles" "0 90 0"
+"origin" "0 -384 28"
+"radius" "2000"
+"script_int" "2000"
+"script_noteworthy" "start_room"
+"script_string" "zclassic_start_room zcleansed_start_room zgrief_start_room"
+"target" "initial_spawn_points"
+"targetname" "player_respawn_point"
+"_color" "1 0 0"
+}
+// entity 10
+{
+guid "{e18ecde7-ef71-4078-ba03-4296fa890436}"
+"classname" "script_struct"
+"_color" "1 1 0"
+"angles" "0 90 0"
+"origin" "-64 -256 28"
+"radius" "32"
+"script_int" "2"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 11
+{
+guid "{472f7324-5663-4c24-9d93-b74daf436030}"
+"classname" "script_struct"
+"_color" "1 0 1"
+"angles" "0 90 0"
+"origin" "-64 -320 28"
+"radius" "32"
+"script_int" "1"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 12
+{
+guid "{c4dcc199-842d-4803-954a-83dc913182fc}"
+"classname" "script_struct"
+"_color" "1 1 0"
+"angles" "0 90 0"
+"origin" "64 -256 28"
+"radius" "32"
+"script_int" "2"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 13
+{
+guid "{3d674447-b009-4c59-b6c5-5fb6de9bb8d8}"
+"classname" "script_struct"
+"_color" "1 0 1"
+"angles" "0 90 0"
+"origin" "64 -320 28"
+"radius" "32"
+"script_int" "1"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 14
+{
+guid "{55e8fd3b-bf03-490a-ac6c-832e2251a2b5}"
+"classname" "script_struct"
+"_color" "1 1 0"
+"angles" "0 90 0"
+"origin" "192 -256 28"
+"radius" "32"
+"script_int" "2"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 15
+{
+guid "{b934ee90-800b-43ad-ac1e-e323f9d94802}"
+"classname" "script_struct"
+"_color" "1 0 1"
+"angles" "0 90 0"
+"origin" "192 -320 28"
+"radius" "32"
+"script_int" "1"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 16
+{
+guid "{5364b957-1df2-4113-aa86-ec348e4c284e}"
+"classname" "script_struct"
+"_color" "1 1 0"
+"angles" "0 90 0"
+"origin" "-192 -256 28"
+"radius" "32"
+"script_int" "2"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 17
+{
+guid "{4152d167-4cdc-43c9-a7e5-d824f9357b44}"
+"classname" "script_struct"
+"_color" "1 0 1"
+"angles" "0 90 0"
+"origin" "-192 -320 28"
+"radius" "32"
+"script_int" "1"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 18
+{
+guid "{0a2cd0ca-b6c6-48b7-b56c-2c4f252d0bd1}"
+"classname" "script_struct"
+"angles" "0 90 0"
+"origin" "-64 -584 104"
+"target" "intermission_b"
+"targetname" "intermission"
+"_color" "1 0 0"
+}
+// entity 19
+{
+guid "{76d46b54-8d79-4b7e-a210-700b30b97d38}"
+"classname" "script_struct"
+"angles" "0 29.9999 0"
+"origin" "-728 -32 104"
+"targetname" "intermission_b"
+"_color" "1 0 0"
+}
+// entity 20
+{
+guid "{acda4ae5-5fde-463d-ac18-5ca94d20f13d}"
+"classname" "volume_sun"
+"ssi" "default_day"
+"global_fill_color" "0 0 0"
+"global_fill_intensity" "1"
+"grid_density" "32"
+"respectLightLods" "1"
+"shadowBiasScale" "1"
+"shadowSplitDistance" "2000"
+"shadowVistaDetail" "1"
+"ssi1" "default_day"
+"streamLighting" "1"
+// brush 0
+{
+ guid "{f38872d6-9b75-4c08-be28-3ce3813e80f2}"
+ ( -2048 -2048 -64 ) ( 2048 -2048 -64 ) ( 2048 2048 -64 ) sun_volume 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2048 2048 896 ) ( 2048 2048 896 ) ( 2048 -2048 896 ) sun_volume 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2048 -1920 0 ) ( -2048 -1920 1024 ) ( 2048 -1920 1024 ) sun_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 1920 2048 0 ) ( 1920 -2048 0 ) ( 1920 -2048 1024 ) sun_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 2048 1920 0 ) ( 2048 1920 1024 ) ( -2048 1920 1024 ) sun_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( -1920 2048 1024 ) ( -1920 -2048 1024 ) ( -1920 -2048 0 ) sun_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+}
+}
+// entity 21
+{
+guid "{8ed504fe-edf1-4f3e-89b0-3d6741e3c924}"
+"classname" "umbra_volume"
+// brush 0
+{
+ guid "{05a69f4c-def7-4818-ba80-b8f48c1ee4f0}"
+ ( -1536 -768 -64 ) ( 768 -768 -64 ) ( 768 512 -64 ) umbra_volume 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1536 512 832 ) ( 768 512 832 ) ( 768 -768 832 ) umbra_volume 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1536 -1792 -256 ) ( -1536 -1792 512 ) ( 768 -1792 512 ) umbra_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 1792 512 0 ) ( 1792 -768 0 ) ( 1792 -768 768 ) umbra_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 768 1792 0 ) ( 768 1792 768 ) ( -1536 1792 768 ) umbra_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( -1792 512 768 ) ( -1792 -768 768 ) ( -1792 -768 0 ) umbra_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+}
+}
+// entity 22
+{
+guid "{f5bd2ee3-7210-483b-a2f3-31ebdd37d41c}"
+"classname" "volume_fpstool"
+// brush 0
+{
+ guid "{80c4b8f7-7919-4c4c-93bd-882343e414dc}"
+ ( -1536 -1536 -64 ) ( 768 -1536 -64 ) ( 768 512 -64 ) volume_fpstool 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1536 512 768 ) ( 768 512 768 ) ( 768 -1536 768 ) volume_fpstool 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1536 -1536 0 ) ( -1536 -1536 768 ) ( 768 -1536 768 ) volume_fpstool 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 1536 256 0 ) ( 1536 -1792 0 ) ( 1536 -1792 768 ) volume_fpstool 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 768 1536 0 ) ( 768 1536 768 ) ( -1536 1536 768 ) volume_fpstool 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( -1536 512 768 ) ( -1536 -1536 768 ) ( -1536 -1536 0 ) volume_fpstool 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+}
+}
+// entity 23
+{
+guid "{e27ce018-46ba-4a28-ad15-d6dc3719d12e}"
+"classname" "reflection_probe"
+"ao_power" "2"
+"ao_range" "16"
+"exploderFade" "1"
+"grid_density" "0"
+"origin" "4 4 132"
+"radius" "2048"
+"resolution" "3x"
+"adaptive_quality_boost" "Off"
+"ao_strength" "1"
+"ao_strength_double_sided" "0.200000002980232"
+"blend_maxs" "3 3 3"
+"blend_mins" "3 3 3"
+"box" "1"
+"client_server" "ClientSide"
+"debugColor" "1 1 1"
+"high_detail" "1"
+"in_play_space" "1"
+"inpaint_occluded_rays" "1"
+"name" "probe"
+"placement_offset" "72"
+"size_max" "72 72 72"
+"size_min" "72 72 72"
+}
+// entity 24
+{
+guid "{cb310e82-bf87-4c27-8a95-232122f1ce65}"
+"classname" "actor_spawner_zm_factory_zombie"
+"ALERTONSPAWN" "0"
+"MAKEROOM" "1"
+"SCRIPT_FORCESPAWN" "1"
+"angles" "0 270 0"
+"count" "9999"
+"export" "1"
+"origin" "96 659 208"
+"script_disable_bleeder" "1"
+"script_forcespawn" "1"
+"script_noteworthy" "zombie_spawner"
+"SPAWNER" "1"
+"_color" "1 0.25 0"
+"engageMaxDist" "700"
+"engageMinDist" "250"
+"model" "c_zom_test_body1"
+"script_dropammo" "1"
+"sm_active_count_max" "3"
+"sm_active_count_min" "3"
+"spawnflags" "19"
+}
+// entity 25
+{
+guid "{b3681e8a-db1d-42ef-8dc2-522d3b793dcc}"
+"classname" "misc_prefab"
+"angles" "0 180 0"
+"model" "_prefabs/zm/box/box_start.map"
+"origin" "64 48 0"
+}
+// entity 26
+{
+guid "{17b7af45-92ef-474f-905d-69c8d24943ce}"
+"classname" "misc_prefab"
+"model" "_prefabs/zm/harrybo21_prefabs/perks/vending_revive_struct.map"
+"origin" "176 48 0"
+}

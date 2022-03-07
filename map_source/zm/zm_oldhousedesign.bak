@@ -1,0 +1,441 @@
+iwmap 4
+"script_startingnumber" 0
+"000_Global" flags expanded  active
+"000_Global/No Comp" flags hidden ignore 
+"The Map" flags expanded 
+// entity 0
+{
+guid "{A81D6C0E-51E5-11EC-9910-548D5A687C88}"
+"classname" "worldspawn"
+"lightingquality" "1024"
+"samplescale" "1"
+"skyboxmodel" "skybox_default_day"
+"ssi" "default_day"
+"wsi" "default_day"
+"fsi" "default"
+"gravity" "800"
+"lodbias" "default"
+"lutmaterial" "luts_t7_default"
+"numOmniShadowSlices" "24"
+"numSpotShadowSlices" "64"
+"sky_intensity_factor0" "1"
+"sky_intensity_factor1" "1"
+"state_alias_1" "State 1"
+"state_alias_2" "State 2"
+"state_alias_3" "State 3"
+"state_alias_4" "State 4"
+// brush 0
+{
+ guid "{B1753D0B-93F7-4645-B8F7-6386888E5FF4}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 1024 ) ( 1024 -2080 1024 ) ( 1024 -2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2080 1024 ) ( 0 2080 1024 ) ( 0 2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2080 2048 1024 ) ( -2080 -2048 1024 ) ( -2080 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2048 -2048 960 ) ( -2048 2048 960 ) ( -2048 -2048 -64 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 1
+{
+ guid "{96530B3B-D87C-413A-B9A5-00CEB7B85EDD}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -2048 1056 ) ( 2080 2048 1056 ) ( 2080 2048 32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2080 1024 ) ( 0 2080 1024 ) ( 0 2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2080 2048 1024 ) ( -2080 -2048 1024 ) ( -2080 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 2048 1024 ) ( 1024 2048 1024 ) ( 0 2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ guid "{373334AA-7EBA-4F9C-A976-15AFDD217E1C}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 1024 ) ( 1024 -2080 1024 ) ( 1024 -2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -2048 1056 ) ( 2080 2048 1056 ) ( 2080 2048 32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2080 1024 ) ( 0 2080 1024 ) ( 0 2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 2048 992 ) ( 2048 -2048 992 ) ( 2048 2048 -32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ guid "{8F13CC03-A367-4C88-B2B9-1F40BA32A34C}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 1024 ) ( 1024 -2080 1024 ) ( 1024 -2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -2048 1056 ) ( 2080 2048 1056 ) ( 2080 2048 32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2080 2048 1024 ) ( -2080 -2048 1024 ) ( -2080 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 -2048 1024 ) ( 0 -2048 1024 ) ( 1024 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ guid "{F7DBB846-FA4C-404C-86F8-1FF8AEDE8A49}"
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 1024 ) ( 1024 -2080 1024 ) ( 1024 -2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -2048 1056 ) ( 2080 2048 1056 ) ( 2080 2048 32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2080 1024 ) ( 0 2080 1024 ) ( 0 2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2080 2048 1024 ) ( -2080 -2048 1024 ) ( -2080 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 2048 1024 ) ( 32 -2048 1024 ) ( 1056 2048 1024 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ guid "{D70203A8-86F4-47BB-BEF0-362C19CFD19A}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 960 ) ( 1024 -2080 960 ) ( 1024 -2080 -64 ) sky 16 16 0 64 0 0 lightmap_gray 16384 16384 0 64 0 0
+ ( 2080 -2048 992 ) ( 2080 2048 992 ) ( 2080 2048 -32 ) sky 16 16 0 64 0 0 lightmap_gray 16384 16384 0 64 0 0
+ ( 1024 2080 960 ) ( 0 2080 960 ) ( 0 2080 -64 ) sky 16 16 0 64 0 0 lightmap_gray 16384 16384 0 64 0 0
+ ( -2080 2048 960 ) ( -2080 -2048 960 ) ( -2080 -2048 -64 ) sky 16 16 0 64 0 0 lightmap_gray 16384 16384 0 64 0 0
+ ( 0 2048 -64 ) ( 1024 2048 -64 ) ( 0 -2048 -64 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ guid "{5F60EA42-5067-11EC-9910-548D5A687C88}"
+ ( 120 320 0 ) ( -312 320 0 ) ( -312 -112 0 ) caulk 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -312 -112 8 ) ( -312 320 8 ) ( 120 320 8 ) ac_prs_grass_distant_a 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 376 -808 8 ) ( 808 -808 8 ) ( 808 -808 0 ) caulk 16 16 0 0 0 0 lightmap_gray 16384 16384 688 0 0 0
+ ( 808 -808 8 ) ( 808 -376 8 ) ( 808 -376 0 ) caulk 16 16 0 0 0 0 lightmap_gray 16384 16384 -696 0 0 0
+ ( 120 320 8 ) ( -312 320 8 ) ( -312 320 0 ) caulk 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -312 320 8 ) ( -312 -112 8 ) ( -312 -112 0 ) caulk 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ guid "{03A87B12-51E4-11EC-9910-548D5A687C88}"
+ ( 320 -640 8 ) ( 128 -640 8 ) ( 128 -648 8 ) mtl_zm_brick_pap_door 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 144 -648 96 ) ( 144 -640 96 ) ( 336 -640 96 ) mtl_zm_brick_pap_door 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -648 72 ) ( 320 -648 72 ) ( 320 -648 8 ) mtl_zm_brick_pap_door 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -648 72 ) ( 320 -640 72 ) ( 320 -640 8 ) mtl_zm_brick_pap_door 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -640 72 ) ( 128 -640 72 ) ( 128 -640 8 ) mtl_zm_brick_pap_door 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -640 72 ) ( 128 -648 72 ) ( 128 -648 8 ) mtl_zm_brick_pap_door 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 8
+{
+ guid "{87C7463F-51E4-11EC-9910-548D5A687C88}"
+ ( 144 -648 256 ) ( 144 -640 256 ) ( 336 -640 256 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -650 200 ) ( 320 -650 200 ) ( 320 -650 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -640 200 ) ( 128 -640 200 ) ( 128 -640 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -640 200 ) ( 128 -648 200 ) ( 128 -648 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -640 208 ) ( 248 -640 208 ) ( 192 -608 208 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -640 144 ) ( 192 -641.5 144 ) ( 192 -641.5 176 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 9
+{
+ guid "{87C74642-51E4-11EC-9910-548D5A687C88}"
+ ( 144 -648 256 ) ( 144 -640 256 ) ( 336 -640 256 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -650 200 ) ( 320 -650 200 ) ( 320 -650 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -648 200 ) ( 320 -640 200 ) ( 320 -640 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -640 200 ) ( 128 -640 200 ) ( 128 -640 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -640 208 ) ( 248 -640 208 ) ( 192 -608 208 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -643.5 144 ) ( 256 -641.5 144 ) ( 256 -643.5 176 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 10
+{
+ guid "{9D044A82-51E4-11EC-9910-548D5A687C88}"
+ ( 144 -648 256 ) ( 144 -640 256 ) ( 336 -640 256 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -650 200 ) ( 320 -650 200 ) ( 320 -650 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -640 200 ) ( 128 -640 200 ) ( 128 -640 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -640 208 ) ( 248 -640 208 ) ( 192 -608 208 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -641.5 144 ) ( 256 -643.5 144 ) ( 256 -643.5 176 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -641.5 144 ) ( 192 -640 144 ) ( 192 -641.5 176 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -649 208 ) ( 192 -650 208.5 ) ( 224 -649 208 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -649.5 208 ) ( 192 -650 209 ) ( 224 -649.5 208 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -640 208.5 ) ( 192 -641 208 ) ( 224 -641 208 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -640 209 ) ( 192 -640.5 208 ) ( 224 -640.5 208 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 11
+{
+ guid "{A3EABD34-51E4-11EC-9910-548D5A687C88}"
+ ( 320 -640 96 ) ( 128 -640 96 ) ( 128 -648 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -650 200 ) ( 320 -650 200 ) ( 320 -650 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -640 200 ) ( 128 -640 200 ) ( 128 -640 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -649 96 ) ( 320 -650 96.5 ) ( 352 -649 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -649.5 96 ) ( 320 -650 97 ) ( 352 -650 97 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 264 -640 144 ) ( 208 -640 144 ) ( 264 -608 144 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -641.5 144 ) ( 256 -643.5 144 ) ( 256 -643.5 176 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -641.5 144 ) ( 192 -640 144 ) ( 192 -641.5 176 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -650 143 ) ( 192 -649.5 144 ) ( 224 -650 143 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -650 143.5 ) ( 192 -649 144 ) ( 224 -649 144 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -641 144 ) ( 192 -640 143.5 ) ( 224 -641 144 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -640.5 144 ) ( 192 -640 143 ) ( 224 -640 143 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 12
+{
+ guid "{BEC237A6-51E4-11EC-9910-548D5A687C88}"
+ ( 128 -650 200 ) ( 320 -650 200 ) ( 320 -650 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -648 200 ) ( 320 -640 200 ) ( 320 -640 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -640 200 ) ( 128 -640 200 ) ( 128 -640 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 248 -640 208 ) ( 192 -640 208 ) ( 192 -608 208 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 208 -640 144 ) ( 264 -640 144 ) ( 264 -608 144 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -640 208 ) ( 256 -640 152 ) ( 256 -608 208 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -640.5 208 ) ( 256.25 -640 208 ) ( 256 -640.5 240 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -640.25 208 ) ( 256.5 -640 208 ) ( 256.5 -640 240 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256.25 -650 208 ) ( 256 -649.5 208 ) ( 256 -649.5 240 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256.5 -650 208 ) ( 256 -649.75 208 ) ( 256 -649.75 240 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 13
+{
+ guid "{D5992B20-51E4-11EC-9910-548D5A687C88}"
+ ( 128 -650 200 ) ( 320 -650 200 ) ( 320 -650 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -640 200 ) ( 128 -640 200 ) ( 128 -640 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -640 200 ) ( 128 -648 200 ) ( 128 -648 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 248 -640 208 ) ( 192 -640 208 ) ( 192 -608 208 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 208 -640 144 ) ( 264 -640 144 ) ( 264 -608 144 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -640 144 ) ( 192 -640 208 ) ( 192 -608 208 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 191.5 -640 208 ) ( 192 -640.25 208 ) ( 191.5 -640 240 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 191.75 -640 208 ) ( 192 -640.5 208 ) ( 192 -640.5 240 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -649.5 208 ) ( 191.75 -650 208 ) ( 192 -649.5 240 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -649.75 208 ) ( 191.5 -650 208 ) ( 191.5 -650 240 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 14
+{
+ guid "{87C74644-51E4-11EC-9910-548D5A687C88}"
+ ( 320 -640 96 ) ( 128 -640 96 ) ( 128 -648 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -650 200 ) ( 320 -650 200 ) ( 320 -650 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -648 200 ) ( 320 -640 200 ) ( 320 -640 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -640 200 ) ( 128 -640 200 ) ( 128 -640 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -649 96 ) ( 320 -650 96.5 ) ( 352 -649 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -649.5 96 ) ( 320 -650 97 ) ( 352 -650 97 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 264 -640 144 ) ( 208 -640 144 ) ( 264 -608 144 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -643.5 144 ) ( 256 -641.5 144 ) ( 256 -643.5 176 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 15
+{
+ guid "{87C74641-51E4-11EC-9910-548D5A687C88}"
+ ( 320 -640 96 ) ( 128 -640 96 ) ( 128 -648 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -650 200 ) ( 320 -650 200 ) ( 320 -650 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -640 200 ) ( 128 -640 200 ) ( 128 -640 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 128 -640 200 ) ( 128 -648 200 ) ( 128 -648 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -649 96 ) ( 320 -650 96.5 ) ( 352 -649 96 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -649.5 96 ) ( 320 -650 97 ) ( 352 -650 97 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 264 -640 144 ) ( 208 -640 144 ) ( 264 -608 144 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -640 144 ) ( 192 -641.5 144 ) ( 192 -641.5 176 ) pbr_old_rough_worn_plaster_mtl 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 16
+{
+ guid "{1C75A373-51E5-11EC-9910-548D5A687C88}"
+ ( 257 -641 144 ) ( 201 -641 144 ) ( 201 -649 144 ) t7_metal_dark_gray_rusty_wet 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -649 144.5 ) ( 192 -641 144.5 ) ( 248 -641 144.5 ) t7_metal_dark_gray_rusty_wet 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -649 144.5 ) ( 248 -649 144.5 ) ( 248 -649 136.5 ) t7_metal_dark_gray_rusty_wet 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 248 -641 144.5 ) ( 192 -641 144.5 ) ( 192 -641 136.5 ) t7_metal_dark_gray_rusty_wet 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192.25 -640 144.5 ) ( 192 -640 144 ) ( 192 -608 144 ) t7_metal_dark_gray_rusty_wet 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -640 144 ) ( 255.75 -640 144.5 ) ( 256 -608 144 ) t7_metal_dark_gray_rusty_wet 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 17
+{
+ guid "{6CDE2848-51E5-11EC-9910-548D5A687C88}"
+ ( 257 -641 207.5 ) ( 201 -641 207.5 ) ( 201 -649 207.5 ) t7_metal_dark_gray_rusty_wet 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -649 208 ) ( 192 -641 208 ) ( 248 -641 208 ) t7_metal_dark_gray_rusty_wet 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -649 208 ) ( 256 -641 208 ) ( 256 -641 200 ) t7_metal_dark_gray_rusty_wet 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 192 -641 208 ) ( 192 -649 208 ) ( 192 -649 200 ) t7_metal_dark_gray_rusty_wet 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -641 208 ) ( 256 -641.25 207.5 ) ( 288 -641.25 207.5 ) t7_metal_dark_gray_rusty_wet 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 256 -648.75 207.5 ) ( 256 -649 208 ) ( 288 -648.75 207.5 ) t7_metal_dark_gray_rusty_wet 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+guid "{E7173310-8648-4722-9DDD-0CA17C821329}"
+"classname" "volume_sun"
+"ssi" "default_day"
+"global_fill_color" "0 0 0"
+"global_fill_intensity" "1"
+"grid_density" "32"
+"respectLightLods" "1"
+"shadowBiasScale" "1"
+"shadowSplitDistance" "2000"
+"shadowVistaDetail" "1"
+"ssi1" "default_day"
+"streamLighting" "1"
+// brush 0
+{
+ guid "{1566B729-0382-4AB9-AFBF-DD46E5ECBD99}"
+ ( -2048 -2048 -64 ) ( 2048 -2048 -64 ) ( 2048 2048 -64 ) sun_volume 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2048 2048 896 ) ( 2048 2048 896 ) ( 2048 -2048 896 ) sun_volume 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2048 -1920 0 ) ( -2048 -1920 1024 ) ( 2048 -1920 1024 ) sun_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 1920 2048 0 ) ( 1920 -2048 0 ) ( 1920 -2048 1024 ) sun_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 2048 1920 0 ) ( 2048 1920 1024 ) ( -2048 1920 1024 ) sun_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( -1920 2048 1024 ) ( -1920 -2048 1024 ) ( -1920 -2048 0 ) sun_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+}
+}
+// entity 2
+{
+guid "{4BD6F7CD-279B-4928-9AAC-E191850FD4D2}"
+"classname" "umbra_volume"
+// brush 0
+{
+ guid "{3455F78F-8B45-416B-8722-C4FABCFCD771}"
+ ( -1536 -768 -64 ) ( 768 -768 -64 ) ( 768 512 -64 ) umbra_volume 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1536 512 832 ) ( 768 512 832 ) ( 768 -768 832 ) umbra_volume 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1536 -1792 -256 ) ( -1536 -1792 512 ) ( 768 -1792 512 ) umbra_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 1792 512 0 ) ( 1792 -768 0 ) ( 1792 -768 768 ) umbra_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 768 1792 0 ) ( 768 1792 768 ) ( -1536 1792 768 ) umbra_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( -1792 512 768 ) ( -1792 -768 768 ) ( -1792 -768 0 ) umbra_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+}
+}
+// entity 3
+{
+guid "{872CE696-F361-46C7-818F-71D5979E540A}"
+"classname" "volume_fpstool"
+// brush 0
+{
+ guid "{6F068179-20CE-44AE-90D2-082DD4D2B669}"
+ ( -1536 -1536 -64 ) ( 768 -1536 -64 ) ( 768 512 -64 ) volume_fpstool 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1536 512 768 ) ( 768 512 768 ) ( 768 -1536 768 ) volume_fpstool 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1536 -1536 0 ) ( -1536 -1536 768 ) ( 768 -1536 768 ) volume_fpstool 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 1536 256 0 ) ( 1536 -1792 0 ) ( 1536 -1792 768 ) volume_fpstool 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 768 1536 0 ) ( 768 1536 768 ) ( -1536 1536 768 ) volume_fpstool 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( -1536 512 768 ) ( -1536 -1536 768 ) ( -1536 -1536 0 ) volume_fpstool 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+}
+}
+// entity 4
+{
+guid "{5B0A3292-FA1A-469F-B488-D6DA8A5415C1}"
+"classname" "reflection_probe"
+"ao_power" "2"
+"ao_range" "16"
+"ao_strength_double_sided" "0.200000002980232"
+"exploderFade" "1"
+"origin" "4 4 132"
+"radius" "2048"
+"resolution" "3x"
+"adaptive_quality_boost" "Off"
+"ao_strength" "1"
+"blend_maxs" "3 3 3"
+"blend_mins" "3 3 3"
+"box" "1"
+"client_server" "ClientSide"
+"debugColor" "1 1 1"
+"grid_density" "0"
+"high_detail" "1"
+"in_play_space" "1"
+"inpaint_occluded_rays" "1"
+"name" "probe"
+"placement_offset" "72"
+"size_max" "72 72 72"
+"size_min" "72 72 72"
+}
+// entity 5
+{
+guid "{8FBD5C40-51E5-11EC-9910-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_fence_wrought_iron_01_post"
+"origin" "224 -644 144"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 6
+{
+guid "{9AFA82E2-51E5-11EC-9910-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_fence_wrought_iron_01_post"
+"origin" "224 -644 156"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 7
+{
+guid "{A14118A4-51E5-11EC-9910-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_fence_wrought_iron_01_post"
+"origin" "236 -644 156"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 8
+{
+guid "{A14118A1-51E5-11EC-9910-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_fence_wrought_iron_01_post"
+"origin" "236 -644 144"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 9
+{
+guid "{A14118C8-51E5-11EC-9910-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_fence_wrought_iron_01_post"
+"origin" "248 -644 156"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 10
+{
+guid "{A14118CB-51E5-11EC-9910-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_fence_wrought_iron_01_post"
+"origin" "248 -644 144"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 11
+{
+guid "{A81D6C05-51E5-11EC-9910-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_fence_wrought_iron_01_post"
+"origin" "212 -644 156"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 12
+{
+guid "{A81D6C08-51E5-11EC-9910-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_fence_wrought_iron_01_post"
+"origin" "212 -644 144"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 13
+{
+guid "{A81D6C12-51E5-11EC-9910-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_fence_wrought_iron_01_post"
+"origin" "200 -644 156"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 14
+{
+guid "{A81D6C15-51E5-11EC-9910-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_fence_wrought_iron_01_post"
+"origin" "200 -644 144"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}

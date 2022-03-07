@@ -1,0 +1,2185 @@
+iwmap 4
+"script_startingnumber" 0
+"000_Global" flags expanded  active
+"000_Global/No Comp" flags hidden ignore 
+"The Map" flags expanded 
+// entity 0
+{
+guid "{4D68966B-3B07-11EB-9891-548D5A687C88}"
+"classname" "worldspawn"
+"lightingquality" "1024"
+"samplescale" "1"
+"skyboxmodel" "skybox_default_day"
+"ssi" "default_day"
+"wsi" "default_day"
+"fsi" "default"
+"gravity" "800"
+"lodbias" "default"
+"lutmaterial" "luts_t7_default"
+"numOmniShadowSlices" "24"
+"numSpotShadowSlices" "64"
+"sky_intensity_factor0" "1"
+"sky_intensity_factor1" "1"
+"state_alias_1" "State 1"
+"state_alias_2" "State 2"
+"state_alias_3" "State 3"
+"state_alias_4" "State 4"
+// brush 0
+{
+ guid "{B4C6F677-EECE-416C-9392-82254A66D71E}"
+ ( 1008 56 0 ) ( 960 56 0 ) ( 960 16 0 ) script_wall 128 128 696 -80 0 0 lightmap_gray 16384 16384 696 -80 0 0
+ ( 968 16 256 ) ( 968 56 256 ) ( 1016 56 256 ) script_wall 128 128 696 -80 0 0 lightmap_gray 16384 16384 696 -80 0 0
+ ( 960 16 88 ) ( 1008 16 88 ) ( 1008 16 0 ) script_wall 128 128 696 -64 0 0 lightmap_gray 16384 16384 696 -64 0 0
+ ( 980 16 88 ) ( 980 56 88 ) ( 980 56 0 ) script_wall 128 128 80 -64 0 0 lightmap_gray 16384 16384 80 -64 0 0
+ ( 1008 64 88 ) ( 960 64 88 ) ( 960 64 0 ) script_wall 128 128 696 -64 0 0 lightmap_gray 16384 16384 696 -64 0 0
+ ( 960 56 88 ) ( 960 16 88 ) ( 960 16 0 ) script_wall 128 128 80 -64 0 0 lightmap_gray 16384 16384 80 -64 0 0
+}
+// brush 1
+{
+ guid "{CA907179-9E90-4E30-AF00-89210F56BE33}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 1024 ) ( 1024 -2080 1024 ) ( 1024 -2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2080 1024 ) ( 0 2080 1024 ) ( 0 2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2080 2048 1024 ) ( -2080 -2048 1024 ) ( -2080 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2048 -2048 960 ) ( -2048 2048 960 ) ( -2048 -2048 -64 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 2
+{
+ guid "{14B07CD4-A147-4897-B466-2BBDEAD1ABBF}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -2048 1056 ) ( 2080 2048 1056 ) ( 2080 2048 32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2080 1024 ) ( 0 2080 1024 ) ( 0 2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2080 2048 1024 ) ( -2080 -2048 1024 ) ( -2080 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 2048 1024 ) ( 1024 2048 1024 ) ( 0 2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ guid "{47B29002-63B2-446D-9EEE-7E8D17C808D7}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 1024 ) ( 1024 -2080 1024 ) ( 1024 -2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -2048 1056 ) ( 2080 2048 1056 ) ( 2080 2048 32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2080 1024 ) ( 0 2080 1024 ) ( 0 2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2048 2048 992 ) ( 2048 -2048 992 ) ( 2048 2048 -32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ guid "{9B14EFE4-90C4-41A5-9661-ECD67FD1F2CD}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 1024 ) ( 1024 -2080 1024 ) ( 1024 -2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -2048 1056 ) ( 2080 2048 1056 ) ( 2080 2048 32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2080 2048 1024 ) ( -2080 -2048 1024 ) ( -2080 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 -2048 1024 ) ( 0 -2048 1024 ) ( 1024 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 5
+{
+ guid "{1E835070-943C-4BBF-B012-E2B928F87FDD}"
+ ( 32 -2048 1056 ) ( 32 2048 1056 ) ( 1056 2048 1056 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 1024 ) ( 1024 -2080 1024 ) ( 1024 -2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 2080 -2048 1056 ) ( 2080 2048 1056 ) ( 2080 2048 32 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 1024 2080 1024 ) ( 0 2080 1024 ) ( 0 2080 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2080 2048 1024 ) ( -2080 -2048 1024 ) ( -2080 -2048 0 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 32 2048 1024 ) ( 32 -2048 1024 ) ( 1056 2048 1024 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 6
+{
+ guid "{77BD0887-ADDE-45F5-845A-A9ED4C79C52C}"
+ ( 1024 2048 -96 ) ( 0 2048 -96 ) ( 0 -2048 -96 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 0 -2080 960 ) ( 1024 -2080 960 ) ( 1024 -2080 -64 ) sky 16 16 0 64 0 0 lightmap_gray 16384 16384 0 64 0 0
+ ( 2080 -2048 992 ) ( 2080 2048 992 ) ( 2080 2048 -32 ) sky 16 16 0 64 0 0 lightmap_gray 16384 16384 0 64 0 0
+ ( 1024 2080 960 ) ( 0 2080 960 ) ( 0 2080 -64 ) sky 16 16 0 64 0 0 lightmap_gray 16384 16384 0 64 0 0
+ ( -2080 2048 960 ) ( -2080 -2048 960 ) ( -2080 -2048 -64 ) sky 16 16 0 64 0 0 lightmap_gray 16384 16384 0 64 0 0
+ ( 0 2048 -64 ) ( 1024 2048 -64 ) ( 0 -2048 -64 ) sky 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 7
+{
+ guid "{6B8C1A73-5F77-4D3F-B217-C39BC4D09917}"
+ ( -1536 -1792 -24 ) ( 768 -1792 -24 ) ( 768 768 -24 ) caulk 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1176 -1464 -272 ) ( -1176 -1464 -16 ) ( 1128 -1464 -16 ) caulk 16 16 360 16 0 0 lightmap_gray 16384 16384 360 -48 0 0
+ ( 1480 896 -272 ) ( 1480 -1664 -272 ) ( 1480 -1664 -16 ) caulk 16 16 128 16 0 0 lightmap_gray 16384 16384 128 -48 0 0
+ ( 616 1520 -272 ) ( 616 1520 -16 ) ( -1688 1520 -16 ) caulk 16 16 -152 16 0 0 lightmap_gray 16384 16384 -152 -48 0 0
+ ( -1520 720 -16 ) ( -1520 -1840 -16 ) ( -1520 -1840 -272 ) caulk 16 16 -48 16 0 0 lightmap_gray 16384 16384 -48 -48 0 0
+ ( -1536 768 -16 ) ( 768 768 -16 ) ( 768 -1792 -16 ) caulk 16 16 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 8
+{
+ guid "{CFE7EFC5-3A29-11EB-9890-548D5A687C88}"
+ ( 152 248 0 ) ( 88 248 0 ) ( 88 136 0 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 8 0 0
+ ( 87.5 136 13.5 ) ( 87.5 248 13.5 ) ( 151.5 248 13.5 ) pavement1 64 64 -0.5 0 0 0 lightmap_gray 16384 16384 -0.5 8 0 0
+ ( 88 136 8 ) ( 152 136 8 ) ( 152 136 0 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 249.5 144 8 ) ( 249.5 256 8 ) ( 249.5 256 0 ) pavement1 64 64 8 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 152 288 8 ) ( 88 288 8 ) ( 88 288 0 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 55.5 247.5 8 ) ( 55.5 135.5 8 ) ( 55.5 135.5 0 ) pavement1 64 64 -0.5 0 0 0 lightmap_gray 16384 16384 -8.5 0 0 0
+ ( 64.5 185 13.5 ) ( 55.5 200.5 13.5 ) ( 55.5 200.5 45.5 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 161 139 13.5 ) ( 153.5 137 13.5 ) ( 153.5 137 45.5 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 226 169.5 13.5 ) ( 210.5 154 13.5 ) ( 210.5 154 45.5 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 9
+{
+ guid "{00E0DDFB-3A2A-11EB-9890-548D5A687C88}"
+ ( 56 256 8 ) ( 40 256 8 ) ( 40 200 8 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 37 200 13.5 ) ( 37 256 13.5 ) ( 53 256 13.5 ) pavement1 64 64 -3 0 0 0 lightmap_gray 16384 16384 -3 0 0 0
+ ( -24 200 16 ) ( -8 200 16 ) ( -8 200 8 ) pavement1 64 64 -64 -8 0 0 lightmap_gray 16384 16384 -64 -8 0 0
+ ( 56 200 16 ) ( 56 256 16 ) ( 56 256 8 ) pavement1 64 64 0 -8 0 0 lightmap_gray 16384 16384 0 -8 0 0
+ ( 48 288 16 ) ( 32 288 16 ) ( 32 288 8 ) pavement1 64 64 -8 -8 0 0 lightmap_gray 16384 16384 -8 -8 0 0
+ ( -352 256 16 ) ( -352 200 16 ) ( -352 200 8 ) pavement1 64 64 0 -8 0 0 lightmap_gray 16384 16384 0 -8 0 0
+}
+// brush 10
+{
+ guid "{FD931CFA-3A21-11EB-9890-548D5A687C88}"
+ ( 312 312 -2 ) ( 80 312 -2 ) ( 80 128 -2 ) pavementregular 64 64 -208 0 0 0 lightmap_gray 16384 16384 -208 0 0 0
+ ( 80 128 6 ) ( 80 312 6 ) ( 312 312 6 ) pavementregular 64 64 -208 0 0 0 lightmap_gray 16384 16384 -208 0 0 0
+ ( 80 120 6 ) ( 312 120 6 ) ( 312 120 -2 ) pavementregular 64 64 -208 2 0 0 lightmap_gray 16384 16384 -208 2 0 0
+ ( 312 128 6 ) ( 312 312 6 ) ( 312 312 -2 ) pavementregular 64 64 0 2 0 0 lightmap_gray 16384 16384 0 2 0 0
+ ( 312 256 6 ) ( 80 256 6 ) ( 80 256 -2 ) pavementregular 64 64 -208 2 0 0 lightmap_gray 16384 16384 -208 2 0 0
+ ( -832 288 6 ) ( -832 104 6 ) ( -832 104 -2 ) pavementregular 64 64 -24 2 0 0 lightmap_gray 16384 16384 -24 2 0 0
+}
+// brush 11
+{
+ guid "{8E252379-3B04-11EB-9891-548D5A687C88}"
+ ( -232 256 8 ) ( -248 256 8 ) ( -248 200 8 ) pavement1 64 64 -288 0 0 0 lightmap_gray 16384 16384 -288 0 0 0
+ ( -251 200 13.5 ) ( -251 256 13.5 ) ( -235 256 13.5 ) pavement1 64 64 -291 0 0 0 lightmap_gray 16384 16384 -291 0 0 0
+ ( -240 288 16 ) ( -256 288 16 ) ( -256 288 8 ) pavement1 64 64 -296 -8 0 0 lightmap_gray 16384 16384 -296 -8 0 0
+ ( -832 272 16 ) ( -832 216 16 ) ( -832 216 8 ) pavement1 64 64 16 -8 0 0 lightmap_gray 16384 16384 16 -8 0 0
+ ( -392 136 13.5 ) ( -400 136 13.5 ) ( -392 136 45.5 ) pavement1 64 64 -64 0 0 0 lightmap_gray 16384 16384 -64 0 0 0
+ ( -768 152 6 ) ( -768 136 6 ) ( -768 136 38 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 12
+{
+ guid "{9FA88212-3B04-11EB-9891-548D5A687C88}"
+ ( -232 254.81348 16.271881 ) ( -248 254.81348 16.271881 ) ( -248 199.02658 11.391174 ) pavement1 64 63.75647 -288 0.21238688 0 0 lightmap_gray 16384 16321.65 -288 0.21238686 0 0
+ ( -251 198.54726 16.870243 ) ( -251 254.33412 21.750948 ) ( -235 254.33412 21.750948 ) pavement1 64 63.756454 -291 0.69167167 0 0 lightmap_gray 16384 16321.643 -291 0.69167167 0 0
+ ( -768 286.21234 24.539928 ) ( -768 118.85165 9.8978043 ) ( -768 119.331 4.4187326 ) pavement1 64 64 -0.737957 13.998097 5 0 lightmap_gray 16384 16384 -0.737957 13.998097 5 0
+ ( -712 118.85165 9.8978043 ) ( -712 286.21234 24.539928 ) ( -712 286.69171 19.060852 ) pavement1 64 64 -0.73795456 13.998097 5 0 lightmap_gray 16384 16384.023 -0.73795456 13.998097 5 0
+ ( -752 134.79076 11.292288 ) ( -760 134.79076 11.292288 ) ( -760 132.0018 43.170525 ) pavement1 64 63.75647 0 2.1563406 0 0 lightmap_gray 16384 16321.656 0 2.1563406 0 0
+ ( -760 150.72987 12.686779 ) ( -744 150.72987 12.686779 ) ( -760 147.9409 44.56501 ) pavement1 64 63.75647 0 0.76184857 0 0 lightmap_gray 16384 16321.656 0 0.76184857 0 0
+}
+// brush 13
+{
+ guid "{9FA88213-3B04-11EB-9891-548D5A687C88}"
+ ( -232 256 8 ) ( -248 256 8 ) ( -248 200 8 ) pavement1 64 64 -288 0 0 0 lightmap_gray 16384 16384 -288 0 0 0
+ ( -251 200 13.5 ) ( -251 256 13.5 ) ( -235 256 13.5 ) pavement1 64 64 -291 0 0 0 lightmap_gray 16384 16384 -291 0 0 0
+ ( -712 288 13.5 ) ( -768 288 13.5 ) ( -768 288 8 ) pavement1 64 64 -296 -8 0 0 lightmap_gray 16384 16384 -296 -8 0 0
+ ( -768 288 13.5 ) ( -768 120 13.5 ) ( -768 120 8 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -712 120 13.5 ) ( -712 288 13.5 ) ( -712 288 8 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -744 152 13.5 ) ( -760 152 13.5 ) ( -760 152 45.5 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 14
+{
+ guid "{9FA88214-3B04-11EB-9891-548D5A687C88}"
+ ( -232 252.35027 37.222515 ) ( -248 252.35027 37.222515 ) ( -248 198.25841 22.728662 ) pavement1 64 61.819244 -288 -5.0732679 0 0 lightmap_gray 16384 15825.727 -288 -5.0732679 0 0
+ ( -251 196.83492 28.041256 ) ( -251 250.92676 42.535107 ) ( -235 250.92676 42.535107 ) pavement1 64 61.819244 -291 -3.6497626 0 0 lightmap_gray 16384 15825.727 -291 -3.6497626 0 0
+ ( -768 119.56084 7.3357449 ) ( -712 119.56084 7.3357449 ) ( -712 120.98434 2.0231504 ) pavement1 64 61.819275 -64 5.7042584 0 0 lightmap_gray 16384 15825.734 -64 5.7042584 0 0
+ ( -768 281.83636 50.817322 ) ( -768 119.56084 7.3357449 ) ( -768 120.98434 2.0231504 ) pavement1 64 64 -2.6144674 37.358841 15 0 lightmap_gray 16384 16384 -2.6144674 37.358841 15 0
+ ( -712 119.56084 7.3357449 ) ( -712 281.83636 50.817322 ) ( -712 283.25989 45.50473 ) pavement1 64 64 -2.6145227 37.358829 15 0 lightmap_gray 16384 16384.016 -2.6145227 37.35886 15 0
+ ( -760 135.01566 11.476845 ) ( -752 135.01566 11.476845 ) ( -760 126.73346 42.386478 ) pavement1 64 61.81926 0 1.563152 0 0 lightmap_gray 16384 15825.73 0 1.563152 0 0
+}
+// brush 15
+{
+ guid "{DECD527F-3B04-11EB-9891-548D5A687C88}"
+ ( -608 136 5.5 ) ( -704 136 5.5 ) ( -704 64 5.5 ) mtl_p7_fxp_debris_dirt_rocky_01_brown 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -704 64 13.5 ) ( -704 136 13.5 ) ( -608 136 13.5 ) mtl_p7_fxp_debris_dirt_rocky_01_brown 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -608 136 13.5 ) ( -704 136 13.5 ) ( -704 136 5.5 ) mtl_p7_fxp_debris_dirt_rocky_01_brown 128 128 0 0 0 0 lightmap_gray 16384 16384 0 2.5 0 0
+ ( -672 80 11 ) ( -704 136 11 ) ( -672 80 43 ) mtl_p7_fxp_debris_dirt_rocky_01_brown 128 128 0 0 0 0 lightmap_gray 16384 16384 0 2.5 0 0
+ ( -648 72 11 ) ( -664 72 11 ) ( -664 72 43 ) mtl_p7_fxp_debris_dirt_rocky_01_brown 128 128 0 0 0 0 lightmap_gray 16384 16384 0 2.5 0 0
+ ( -576 136 11 ) ( -608 80 11 ) ( -608 80 43 ) mtl_p7_fxp_debris_dirt_rocky_01_brown 128 128 0 0 0 0 lightmap_gray 16384 16384 0 2.5 0 0
+}
+// brush 16
+{
+ guid "{2C181F46-3B05-11EB-9891-548D5A687C88}"
+ ( 112 132 -1 ) ( -128 132 -1 ) ( -128 -100 -1 ) mtl_p7_3arc_park_asphalt 64 64 0 -4 0 0 lightmap_gray 16384 16384 0 -4 0 0
+ ( -128 -100 7 ) ( -128 132 7 ) ( 112 132 7 ) mtl_p7_3arc_park_asphalt 64 64 0 -4 0 0 lightmap_gray 16384 16384 0 -4 0 0
+ ( -40 -132 7 ) ( 200 -132 7 ) ( 200 -132 -1 ) mtl_p7_3arc_park_asphalt 64 64 0 1 0 0 lightmap_gray 16384 16384 88 -23 0 0
+ ( 520 -124 7 ) ( 520 108 7 ) ( 520 108 -1 ) mtl_p7_3arc_park_asphalt 64 64 4 1 0 0 lightmap_gray 16384 16384 -20 -23 0 0
+ ( 112 124 7 ) ( -128 124 7 ) ( -128 124 -1 ) mtl_p7_3arc_park_asphalt 64 64 0 1 0 0 lightmap_gray 16384 16384 0 -23 0 0
+ ( -832 164 7 ) ( -832 -68 7 ) ( -832 -68 -1 ) mtl_p7_3arc_park_asphalt 64 64 36 1 0 0 lightmap_gray 16384 16384 36 -23 0 0
+ ( 520 123.5 6.5 ) ( 520 124 5.5 ) ( 552 123.5 6.5 ) mtl_p7_3arc_park_asphalt 64 64 0 1 0 0 lightmap_gray 16384 16384 0 1 0 0
+ ( 520 122.5 7 ) ( 520 123.5 6.5 ) ( 552 122.5 7 ) mtl_p7_3arc_park_asphalt 64 64 0 -4 0 0 lightmap_gray 16384 16384 0 -4 0 0
+}
+// brush 17
+{
+ guid "{C428D643-3B06-11EB-9891-548D5A687C88}"
+ ( -232 256 8 ) ( -248 256 8 ) ( -248 200 8 ) pavement1 64 64 -288 0 0 0 lightmap_gray 16384 16384 -288 0 0 0
+ ( -251 200 13.5 ) ( -251 256 13.5 ) ( -235 256 13.5 ) pavement1 64 64 -291 0 0 0 lightmap_gray 16384 16384 -291 0 0 0
+ ( -352 192 16 ) ( -352 248 16 ) ( -352 248 8 ) pavement1 64 64 -8 -8 0 0 lightmap_gray 16384 16384 -8 -8 0 0
+ ( -240 288 16 ) ( -256 288 16 ) ( -256 288 8 ) pavement1 64 64 -296 -8 0 0 lightmap_gray 16384 16384 -296 -8 0 0
+ ( -440 136 6 ) ( -440 152 6 ) ( -440 136 38 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -352 200 14.25 ) ( -376 200 14.25 ) ( -352 200 46.25 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 18
+{
+ guid "{C428D644-3B06-11EB-9891-548D5A687C88}"
+ ( -232 256 8 ) ( -248 256 8 ) ( -248 200 8 ) pavement1 64 64 -288 0 0 0 lightmap_gray 16384 16384 -288 0 0 0
+ ( -251 200 13.5 ) ( -251 256 13.5 ) ( -235 256 13.5 ) pavement1 64 64 -291 0 0 0 lightmap_gray 16384 16384 -291 0 0 0
+ ( -352 200 13.5 ) ( -384 144 13.5 ) ( -352 200 45.5 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -392 136 13.5 ) ( -400 136 13.5 ) ( -392 136 45.5 ) pavement1 64 64 -64 0 0 0 lightmap_gray 16384 16384 -64 0 0 0
+ ( -440 136 6 ) ( -440 152 6 ) ( -440 136 38 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -376 200 14.25 ) ( -352 200 14.25 ) ( -352 200 46.25 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 19
+{
+ guid "{C428D645-3B06-11EB-9891-548D5A687C88}"
+ ( -232 256 8 ) ( -248 256 8 ) ( -248 200 8 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 -288 0 0 0
+ ( -251 200 13.5 ) ( -251 256 13.5 ) ( -235 256 13.5 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 -291 0 0 0
+ ( -240 288 16 ) ( -256 288 16 ) ( -256 288 8 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 -296 -8 0 0
+ ( -440 152 6 ) ( -440 136 6 ) ( -440 136 38 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -712 136 6 ) ( -712 144 6 ) ( -712 136 38 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -352 200 14.25 ) ( -376 200 14.25 ) ( -352 200 46.25 ) pavement1 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 20
+{
+ guid "{C428D646-3B06-11EB-9891-548D5A687C88}"
+ ( -232 256 8 ) ( -248 256 8 ) ( -248 200 8 ) mtl_p7_fxp_debris_dirt_rocky_01_brown 128 128 0 0 0 0 lightmap_gray 16384 16384 -288 0 0 0
+ ( -251 200 13.5 ) ( -251 256 13.5 ) ( -235 256 13.5 ) mtl_p7_fxp_debris_dirt_rocky_01_brown 128 128 0 0 0 0 lightmap_gray 16384 16384 -291 0 0 0
+ ( -392 136 13.5 ) ( -400 136 13.5 ) ( -392 136 45.5 ) mtl_p7_fxp_debris_dirt_rocky_01_brown 128 128 0 0 0 0 lightmap_gray 16384 16384 -64 0 0 0
+ ( -440 152 6 ) ( -440 136 6 ) ( -440 136 38 ) mtl_p7_fxp_debris_dirt_rocky_01_brown 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -712 136 6 ) ( -712 144 6 ) ( -712 136 38 ) mtl_p7_fxp_debris_dirt_rocky_01_brown 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -376 200 14.25 ) ( -352 200 14.25 ) ( -352 200 46.25 ) mtl_p7_fxp_debris_dirt_rocky_01_brown 128 128 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+}
+// entity 1
+{
+guid "{41D59BB2-BD5B-472B-8CDD-50937585E937}"
+"classname" "info_player_start"
+"angles" "0 90 0"
+"origin" "0 -448 40"
+}
+// entity 2
+{
+guid "{134274E6-E76B-44A1-88A3-875AA3B2353A}"
+"classname" "info_volume"
+"script_noteworthy" "player_volume"
+"target" "start_zone_spawners"
+"targetname" "start_zone"
+// brush 0
+{
+ guid "{D7623244-4335-4D50-80C5-A055E043802B}"
+ ( 1536 512 0 ) ( 1536 -1536 0 ) ( 1536 -1536 320 ) volume 64 64 1800 -136 0 0 lightmap_gray 16384 16384 -2044.5 -291.5 0 0
+ ( 768 1408 0 ) ( -1472 1408 0 ) ( -1472 -640 0 ) volume 64 64 -248 -1800 0 0 lightmap_gray 16384 16384 -248 -1800 0 0
+ ( 768 -640 320 ) ( -1472 -640 320 ) ( -1472 1408 320 ) volume 64 64 -248 -1800 0 0 lightmap_gray 16384 16384 -248 -1800 0 0
+ ( 1536 -1536 320 ) ( 1536 -1536 0 ) ( -704 -1536 0 ) volume 64 64 -248 -136 0 0 lightmap_gray 16384 16384 -248 -136 0 0
+ ( -1536 1536 320 ) ( -1536 -512 320 ) ( -1536 -512 0 ) volume 64 64 1800 -136 0 0 lightmap_gray 16384 16384 1800 -136 0 0
+ ( -1536 1536 320 ) ( -1536 1536 0 ) ( 704 1536 0 ) volume 64 64 -248 -136 0 0 lightmap_gray 16384 16384 -248 -136 0 0
+}
+}
+// entity 3
+{
+guid "{4030CF61-B68A-4D7B-81D4-E89DF2BF5A35}"
+"classname" "script_struct"
+"angles" "0 180 0"
+"origin" "576 192 0"
+"script_noteworthy" "riser_location"
+"script_string" "find_flesh"
+"targetname" "start_zone_spawners"
+"_color" "1 0 0"
+}
+// entity 4
+{
+guid "{D483BB9D-35BB-4BD0-A8D4-8E9909B04FD6}"
+"classname" "misc_prefab"
+"angles" "0 2.50448e-006 0"
+"model" "_prefabs/zm/zm_core/barricade_reciever_wood.map"
+"origin" "0 432 0"
+"script_string" "receiver_set_entry_a"
+}
+// entity 5
+{
+guid "{F20E3068-E143-42ED-8BAF-296E7EEDD385}"
+"classname" "script_struct"
+"angles" "0 360 0"
+"origin" "-576 192 0"
+"script_noteworthy" "riser_location"
+"script_string" "find_flesh"
+"targetname" "start_zone_spawners"
+"_color" "1 0 0"
+}
+// entity 6
+{
+guid "{92907035-83C7-4A08-9E8C-1D79A1A67C7E}"
+"classname" "script_struct"
+"angles" "0 270 0"
+"origin" "0 576 0"
+"script_noteworthy" "riser_location"
+"script_string" "receiver_set_entry_a"
+"targetname" "start_zone_spawners"
+"_color" "1 0 0"
+}
+// entity 7
+{
+guid "{D4656E97-5457-4A93-86B4-355F5B82B9F8}"
+"classname" "misc_prefab"
+"angles" "0 270 0"
+"model" "_prefabs/zm/zm_core/power_switch.map"
+"origin" "953.13 39.87 1"
+}
+// entity 8
+{
+guid "{AFEEC8C1-80E5-4405-B9E4-C4D276E8F338}"
+layer "000_Global/No Comp"
+"classname" "actor_zm_nuked_basic_01"
+"count" "9999"
+"export" "1"
+"model" "c_t6_default_character_fb"
+"origin" "0 320 0"
+"script_disable_bleeder" "1"
+"script_forcespawn" "1"
+"script_noteworthy" "zombie_spawner"
+"spawnflags" "3"
+}
+// entity 9
+{
+guid "{C8BD4A62-C48D-4676-857C-4C31E1539902}"
+"classname" "script_struct"
+"angles" "0 90 0"
+"origin" "0 -384 28"
+"radius" "2000"
+"script_int" "2000"
+"script_noteworthy" "start_room"
+"script_string" "zclassic_start_room zcleansed_start_room zgrief_start_room"
+"target" "initial_spawn_points"
+"targetname" "player_respawn_point"
+"_color" "1 0 0"
+}
+// entity 10
+{
+guid "{1D7BD17A-7ADB-415C-89C5-08386DAC6720}"
+"classname" "script_struct"
+"_color" "1 1 0"
+"angles" "0 90 0"
+"origin" "-64 -256 28"
+"radius" "32"
+"script_int" "2"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 11
+{
+guid "{8B9266C7-6A14-4505-972A-BC289CA103AB}"
+"classname" "script_struct"
+"_color" "1 0 1"
+"angles" "0 90 0"
+"origin" "-64 -320 28"
+"radius" "32"
+"script_int" "1"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 12
+{
+guid "{58BE2FDD-55C9-41AA-8B7B-F98460323063}"
+"classname" "script_struct"
+"_color" "1 1 0"
+"angles" "0 90 0"
+"origin" "64 -256 28"
+"radius" "32"
+"script_int" "2"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 13
+{
+guid "{48A417D2-22A3-4A58-A017-9D2DDAFC5024}"
+"classname" "script_struct"
+"_color" "1 0 1"
+"angles" "0 90 0"
+"origin" "64 -320 28"
+"radius" "32"
+"script_int" "1"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 14
+{
+guid "{E2A55645-5A46-4BF6-969C-FB2F83607A88}"
+"classname" "script_struct"
+"_color" "1 1 0"
+"angles" "0 90 0"
+"origin" "192 -256 28"
+"radius" "32"
+"script_int" "2"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 15
+{
+guid "{DB217EDD-EC7B-49CB-B2DE-8C899CFFA898}"
+"classname" "script_struct"
+"_color" "1 0 1"
+"angles" "0 90 0"
+"origin" "192 -320 28"
+"radius" "32"
+"script_int" "1"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 16
+{
+guid "{4B6B882F-CB40-46A4-A6FC-03B1B370797D}"
+"classname" "script_struct"
+"_color" "1 1 0"
+"angles" "0 90 0"
+"origin" "-192 -256 28"
+"radius" "32"
+"script_int" "2"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 17
+{
+guid "{BEE82055-642B-406D-8A4C-0F724FE72FC2}"
+"classname" "script_struct"
+"_color" "1 0 1"
+"angles" "0 90 0"
+"origin" "-192 -320 28"
+"radius" "32"
+"script_int" "1"
+"script_noteworthy" "initial_spawn"
+"script_string" "zcleansed_start_room"
+"targetname" "initial_spawn_points"
+}
+// entity 18
+{
+guid "{42A4DF46-6D58-468E-93C1-7159287178AC}"
+"classname" "script_struct"
+"angles" "0 90 0"
+"origin" "-64 -584 104"
+"target" "intermission_b"
+"targetname" "intermission"
+"_color" "1 0 0"
+}
+// entity 19
+{
+guid "{FAFA75CE-B635-48A4-96D6-34CDF03E3966}"
+"classname" "script_struct"
+"angles" "0 29.9999 0"
+"origin" "-728 -32 104"
+"targetname" "intermission_b"
+"_color" "1 0 0"
+}
+// entity 20
+{
+guid "{AFE04451-C4F0-4FFD-B633-0E8C19704726}"
+"classname" "volume_sun"
+"ssi" "default_day"
+"global_fill_color" "0 0 0"
+"global_fill_intensity" "1"
+"grid_density" "32"
+"respectLightLods" "1"
+"shadowBiasScale" "1"
+"shadowSplitDistance" "2000"
+"shadowVistaDetail" "1"
+"ssi1" "default_day"
+"streamLighting" "1"
+// brush 0
+{
+ guid "{3D456778-3374-43F1-B4B0-ED26C8CBA01D}"
+ ( -2048 -2048 -64 ) ( 2048 -2048 -64 ) ( 2048 2048 -64 ) sun_volume 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2048 2048 896 ) ( 2048 2048 896 ) ( 2048 -2048 896 ) sun_volume 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -2048 -1920 0 ) ( -2048 -1920 1024 ) ( 2048 -1920 1024 ) sun_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 1920 2048 0 ) ( 1920 -2048 0 ) ( 1920 -2048 1024 ) sun_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 2048 1920 0 ) ( 2048 1920 1024 ) ( -2048 1920 1024 ) sun_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( -1920 2048 1024 ) ( -1920 -2048 1024 ) ( -1920 -2048 0 ) sun_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+}
+}
+// entity 21
+{
+guid "{843E1B48-4D31-4A8C-AA8C-A8273499B027}"
+"classname" "umbra_volume"
+// brush 0
+{
+ guid "{DCE2DAF7-7A7D-4AB9-80DB-6DF16EC76057}"
+ ( -1536 -768 -64 ) ( 768 -768 -64 ) ( 768 512 -64 ) umbra_volume 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1536 512 832 ) ( 768 512 832 ) ( 768 -768 832 ) umbra_volume 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1536 -1792 -256 ) ( -1536 -1792 512 ) ( 768 -1792 512 ) umbra_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 1792 512 0 ) ( 1792 -768 0 ) ( 1792 -768 768 ) umbra_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 768 1792 0 ) ( 768 1792 768 ) ( -1536 1792 768 ) umbra_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( -1792 512 768 ) ( -1792 -768 768 ) ( -1792 -768 0 ) umbra_volume 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+}
+}
+// entity 22
+{
+guid "{FFBEECAB-7EE8-4F20-950E-4B636C8FD1CC}"
+"classname" "volume_fpstool"
+// brush 0
+{
+ guid "{3D8C376D-F18A-4ABC-BED3-5B24B8D58410}"
+ ( -1536 -1536 -64 ) ( 768 -1536 -64 ) ( 768 512 -64 ) volume_fpstool 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1536 512 768 ) ( 768 512 768 ) ( 768 -1536 768 ) volume_fpstool 32 32 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -1536 -1536 0 ) ( -1536 -1536 768 ) ( 768 -1536 768 ) volume_fpstool 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 1536 256 0 ) ( 1536 -1792 0 ) ( 1536 -1792 768 ) volume_fpstool 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( 768 1536 0 ) ( 768 1536 768 ) ( -1536 1536 768 ) volume_fpstool 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+ ( -1536 512 768 ) ( -1536 -1536 768 ) ( -1536 -1536 0 ) volume_fpstool 32 32 0 -64 0 0 lightmap_gray 16384 16384 0 -64 0 0
+}
+}
+// entity 23
+{
+guid "{D2883DEF-4E55-4151-AEA5-9CFB8D9032DE}"
+"classname" "reflection_probe"
+"ao_power" "2"
+"ao_range" "16"
+"ao_strength_double_sided" "0.200000002980232"
+"exploderFade" "1"
+"origin" "4 4 132"
+"radius" "2048"
+"resolution" "3x"
+"size_max" "728 600 104"
+"size_min" "1056 368 160"
+"adaptive_quality_boost" "Off"
+"ao_strength" "1"
+"blend_maxs" "3 3 3"
+"blend_mins" "3 3 3"
+"box" "1"
+"client_server" "ClientSide"
+"debugColor" "1 1 1"
+"grid_density" "0"
+"high_detail" "1"
+"in_play_space" "1"
+"inpaint_occluded_rays" "1"
+"name" "probe"
+"placement_offset" "72"
+}
+// entity 24
+{
+guid "{6BDAD41C-2379-4EE8-BFC8-710CDC8AD536}"
+"classname" "actor_spawner_zm_factory_zombie"
+"ALERTONSPAWN" "0"
+"MAKEROOM" "1"
+"SCRIPT_FORCESPAWN" "1"
+"angles" "0 270 0"
+"count" "9999"
+"export" "1"
+"origin" "96 659 208"
+"script_disable_bleeder" "1"
+"script_forcespawn" "1"
+"script_noteworthy" "zombie_spawner"
+"SPAWNER" "1"
+"_color" "1 0.25 0"
+"engageMaxDist" "700"
+"engageMinDist" "250"
+"model" "c_zom_test_body1"
+"script_dropammo" "1"
+"sm_active_count_max" "3"
+"sm_active_count_min" "3"
+"spawnflags" "19"
+}
+// entity 25
+{
+guid "{D57E6193-16E2-467B-952F-DF5CDFD091B0}"
+"classname" "misc_prefab"
+"angles" "0 180 0"
+"model" "_prefabs/zm/box/box_start.map"
+"origin" "-408 616 0"
+}
+// entity 26
+{
+guid "{444747D8-6E21-4551-9429-B38A3780D859}"
+"classname" "misc_prefab"
+"model" "_prefabs/zm/harrybo21_prefabs/perks/vending_revive_struct.map"
+"origin" "488 480 0"
+}
+// entity 27
+{
+guid "{2842A362-3A27-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 359.999 0"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "120 132 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 28
+{
+guid "{8B627DD5-3A28-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 299.999 0"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "75.5 158 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 29
+{
+guid "{9EA70DC5-3A28-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 299.999 0"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "68 171 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 30
+{
+guid "{CCA30090-3A28-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-127.5 196.5 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 31
+{
+guid "{CCA3009B-3A28-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-63.5 196.5 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 32
+{
+guid "{CCA300A6-3A28-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "0.5 196.5 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 33
+{
+guid "{EE4430FA-3A28-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "24 196.5 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 34
+{
+guid "{FF63AC26-3A28-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 14.999 0"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "180 140 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 35
+{
+guid "{06973ED8-3A29-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 44.9988 0"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "232 170 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 36
+{
+guid "{0D30FE73-3A29-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 89.9987 0"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "253.5 222 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 37
+{
+guid "{C61828B4-3A28-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-191.5 196.5 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 38
+{
+guid "{B071B9B1-3A28-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 59.9989 0"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-371.504 157.502 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 39
+{
+guid "{C61828A3-3A28-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-319.5 196.5 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 40
+{
+guid "{D6DC2C09-3A26-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-416 132 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 41
+{
+guid "{B071B9AE-3A28-11EB-9890-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 59.9989 0"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-363.996 170.498 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 42
+{
+guid "{ABF7E8DD-3B03-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-255.5 196.5 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 43
+{
+guid "{E118E26D-3B03-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-480 132 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 44
+{
+guid "{E7F4C653-3B03-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-544 132 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 45
+{
+guid "{F3545CA7-3B03-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 239.999 0"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-587.996 106.998 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 46
+{
+guid "{F3545CAA-3B03-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 239.999 0"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-595.504 94.002 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 47
+{
+guid "{F3545CBC-3B03-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-640 68 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 48
+{
+guid "{01994A8A-3B04-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 299.999 0"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-684.5 94 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 49
+{
+guid "{01994A8D-3B04-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 299.999 0"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-692 107 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 50
+{
+guid "{0E6DB21A-3B04-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_street_curb_concrete_chunk_10_wet"
+"origin" "-800 132 6"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 51
+{
+guid "{79B7B8A4-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-627 86 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 52
+{
+guid "{8EB69FC8-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 325.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-650.906 88.0351 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 53
+{
+guid "{94B0279A-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 325.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-666.906 88.0351 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 54
+{
+guid "{94B027A5-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 250.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-616.46 100.153 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 55
+{
+guid "{9AABE025-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 295.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-602.652 118.139 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 56
+{
+guid "{9AABE033-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-594.137 126.219 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 57
+{
+guid "{A0CA31C7-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 10.9989 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-617.44 121.485 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 58
+{
+guid "{A0CA31D5-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 310.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-638.831 117.106 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 59
+{
+guid "{A0CA31E6-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 250.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-652.499 120.183 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 60
+{
+guid "{A6FB1D9F-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-673.492 116.076 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 61
+{
+guid "{A6FB1DAD-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-685.492 124.076 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 62
+{
+guid "{A6FB1DB8-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 190.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-664.618 127.564 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 63
+{
+guid "{AD76D2A0-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 190.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-636.618 127.564 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 64
+{
+guid "{B76DE25D-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 325.999 0"
+"model" "p7_3arc_park_grass_tall"
+"origin" "-642.906 108.035 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 65
+{
+guid "{BEBAE04E-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 325.999 0"
+"model" "p7_3arc_park_grass_tall"
+"origin" "-630.906 112.035 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 66
+{
+guid "{BEBAE059-3B05-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 325.999 0"
+"model" "p7_3arc_park_grass_tall"
+"origin" "-658.906 112.035 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 67
+{
+guid "{00CF344D-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"model" "p7_foliage_tree_elm_english_autumn_tall"
+"origin" "-672 168 16"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 68
+{
+guid "{3473CF74-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-685.492 124.076 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 69
+{
+guid "{3A9570BD-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-669.492 108.076 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 70
+{
+guid "{3A9570C8-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-661.492 84.076 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 71
+{
+guid "{3A9570D3-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-645.492 92.076 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 72
+{
+guid "{3A9570DE-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-645.492 100.076 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 73
+{
+guid "{3A9570E9-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-645.492 108.076 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 74
+{
+guid "{3A9570F4-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-621.492 108.076 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 75
+{
+guid "{3A9570FF-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-597.492 116.076 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 76
+{
+guid "{3A95710A-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-629.492 108.076 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 77
+{
+guid "{E2D9AF6F-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-698.137 150.219 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 78
+{
+guid "{E2D9AF7A-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-698.137 174.219 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 79
+{
+guid "{E2D9AF82-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-698.137 182.219 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 80
+{
+guid "{E2D9AF8D-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 265.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-665.281 187.637 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 81
+{
+guid "{E959855A-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-669.424 156.044 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 82
+{
+guid "{E959856B-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-653.424 156.044 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 83
+{
+guid "{E9598576-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 145.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-643.143 168.907 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 84
+{
+guid "{E9598584-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 85.9989 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-636.719 181.363 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 85
+{
+guid "{E9598592-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 85.9989 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-620.719 149.363 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 86
+{
+guid "{E959859D-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 25.9988 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-616.576 164.956 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 87
+{
+guid "{F028B489-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 25.9988 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-608.576 180.956 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 88
+{
+guid "{F028B494-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 325.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-594.857 160.093 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 89
+{
+guid "{F028B4A2-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 325.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-570.857 152.093 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 90
+{
+guid "{F028B4AD-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 265.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-569.281 179.637 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 91
+{
+guid "{F028B4BB-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 235.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-583.407 188.357 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 92
+{
+guid "{F6226B95-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-549.424 156.044 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 93
+{
+guid "{F6226BA3-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 249.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-552.328 180.144 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 94
+{
+guid "{F6226BB1-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 113.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-555.513 190.801 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 95
+{
+guid "{F6226BC5-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 113.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-531.513 150.801 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 96
+{
+guid "{FD287C1F-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 53.9989 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-526.728 172.631 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 97
+{
+guid "{FD287C2D-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 53.9989 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-526.728 180.631 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 98
+{
+guid "{FD287C38-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 323.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-514.869 151.978 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 99
+{
+guid "{FD287C46-3B06-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 323.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-482.869 151.978 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 100
+{
+guid "{04DB06AF-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 323.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-498.869 143.978 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 101
+{
+guid "{04DB06BA-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 263.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-505.341 171.419 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 102
+{
+guid "{04DB06C8-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 203.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-469.489 179.754 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 103
+{
+guid "{04DB06D6-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 173.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-452.019 154.483 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 104
+{
+guid "{0B344402-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 157.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-451.558 169.545 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 105
+{
+guid "{0B344410-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 157.999 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-451.558 185.545 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 106
+{
+guid "{0B34441B-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 97.9989 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-492.391 181.763 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 107
+{
+guid "{0B344429-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 81.9987 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-469.176 188.997 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 108
+{
+guid "{0B34443A-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 81.9987 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-509.176 188.997 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 109
+{
+guid "{0B344445-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 81.9987 0"
+"model" "p7_eth_foliage_grass_small_vibrant"
+"origin" "-533.176 188.997 13"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 110
+{
+guid "{187D4602-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-589.492 140.076 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 111
+{
+guid "{187D460D-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-557.492 148.076 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 112
+{
+guid "{187D4618-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-533.492 148.076 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 113
+{
+guid "{187D4623-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 175.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-509.659 148.05 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 114
+{
+guid "{1EDA65B5-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 145.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-485.817 148.111 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 115
+{
+guid "{1EDA65C3-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 55.9989 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-461.889 156.567 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 116
+{
+guid "{1EDA65D1-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 55.9989 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-461.889 172.567 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 117
+{
+guid "{1EDA65DC-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 55.9989 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-477.889 164.567 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 118
+{
+guid "{1EDA65E7-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-493.591 164.7 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 119
+{
+guid "{25CEE0EA-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-541.591 172.7 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 120
+{
+guid "{25CEE0F5-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-557.591 164.7 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 121
+{
+guid "{25CEE100-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-581.591 164.7 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 122
+{
+guid "{25CEE108-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-621.591 172.7 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 123
+{
+guid "{2BCE8FF0-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-637.591 180.7 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 124
+{
+guid "{2BCE8FF8-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-661.591 172.7 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 125
+{
+guid "{2BCE9003-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 295.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-669.327 148.508 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 126
+{
+guid "{2BCE9011-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 265.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-637.3 164.341 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 127
+{
+guid "{2BCE901F-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 249.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-613.322 156.253 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 128
+{
+guid "{3ADE56D6-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.998 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-677.591 172.7 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 129
+{
+guid "{3ADE56D9-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 295.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-685.327 148.508 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 130
+{
+guid "{3ADE56ED-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.998 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-693.591 180.7 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 131
+{
+guid "{3ADE56F0-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 295.999 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-701.327 156.508 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 132
+{
+guid "{3ADE56FD-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.998 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-709.591 188.7 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 133
+{
+guid "{3ADE5708-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 295.998 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-709.327 164.508 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 134
+{
+guid "{4144E19C-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 295.998 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-701.327 148.508 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 135
+{
+guid "{4144E1A7-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 355.998 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-685.591 196.7 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 136
+{
+guid "{4144E1B2-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 295.998 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-661.327 196.508 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 137
+{
+guid "{4144E1C0-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 265.998 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-613.3 196.341 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 138
+{
+guid "{4743E00B-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 265.998 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-581.3 196.341 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 139
+{
+guid "{4743E016-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 205.998 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-549.492 196.077 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 140
+{
+guid "{4743E024-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 145.998 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-517.817 196.111 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
+// entity 141
+{
+guid "{4D689672-3B07-11EB-9891-548D5A687C88}"
+"classname" "misc_model"
+"angles" "0 145.998 0"
+"model" "p7_foliage_bush_sakaki_small_01"
+"origin" "-493.817 196.111 -3"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"modelscale" "1"
+"static" "1"
+}
